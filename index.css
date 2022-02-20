@@ -1,0 +1,78 @@
+.a
+{
+    margin: 1%; 
+    width: 170px; 
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+a
+{
+width:200px;
+}
+*
+{
+margin:0px;
+padding:0px;
+}
+
+input
+{
+border: 1px solid #f2522e;
+background-color:#ededef;
+}
+input:hover
+{
+border:px solid #383959;
+}
+
+input[type=submit]
+{
+    background-color: #f34e24;
+    color: black;
+    width: 115px;
+    height: 36px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#submit:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: #f34e24;
+}
+body{
+    background-image:url(background/corona1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--text_dark);
+    padding: 70px;
+}
+#add
+{
+    padding: 10px;
+    margin: auto;
+  width: 40%;
+  color: white;
+  background-color: #393a59;
+  margin-bottom: 20px;
+  border: 1px solid #f2522e;
+}
+@media screen and (max-width: 400px) {
+    .a{
+    margin: 1%;   
+      }
+  }
+input {
+    font-weight: 500;
+}
+
+
+  
+  
